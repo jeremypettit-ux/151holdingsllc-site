@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>151 Holdings LLC</title>
+<meta name="description" content="151 Holdings LLC is a Utah holding company and the parent company of DrCyberSpot.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2314213d'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='26' font-weight='700' text-anchor='middle' fill='%23e8c37a'%3E151%3C/text%3E%3C/svg%3E">
+<style>
+  :root {
+    --ink: #14213d;
+    --ink-soft: #3d4a66;
+    --paper: #f7f4ee;
+    --gold: #b8893a;
+    --line: #ddd6c8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; }
+  body {
+    font-family: "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  main {
+    flex: 1;
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 12vh 28px 64px;
+  }
+  .mark {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(88px, 18vw, 156px);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 0.9;
+    color: var(--ink);
+  }
+  .mark span { color: var(--gold); }
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    font-size: clamp(26px, 4.4vw, 36px);
+    margin-top: 18px;
+    letter-spacing: 0.01em;
+  }
+  .lede {
+    margin-top: 14px;
+    font-size: 18px;
+    color: var(--ink-soft);
+    max-width: 34em;
+  }
+  .rule {
+    width: 64px;
+    height: 3px;
+    background: var(--gold);
+    margin: 44px 0 28px;
+  }
+  h2 {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 14px;
+  }
+  .company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 20px 22px;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color .15s, transform .15s;
+  }
+  .company:hover { border-color: var(--gold); transform: translateY(-1px); }
+  .company strong { display: block; font-size: 19px; }
+  .company small { color: var(--ink-soft); font-size: 15px; }
+  .company .go { color: var(--gold); font-size: 22px; flex-shrink: 0; }
+  .contact { margin-top: 40px; }
+  .contact a {
+    color: var(--ink);
+    font-size: 18px;
+    text-decoration: none;
+    border-bottom: 1px solid var(--gold);
+  }
+  .contact a:hover { color: var(--gold); }
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 22px 28px;
+    text-align: center;
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark">1<span>5</span>1</div>
+  <h1>151 Holdings LLC</h1>
+  <p class="lede">A Utah holding company that owns and operates independent businesses in software and beyond.</p>
+
+  <div class="rule"></div>
+
+  <h2>Our businesses</h2>
+  <a class="company" href="https://drcyberspot.com">
+    <div>
+      <strong>DrCyberSpot</strong>
+      <small>Apps and software</small>
+    </div>
+    <span class="go" aria-hidden="true">&rarr;</span>
+  </a>
+
+  <div class="contact">
+    <h2>Contact</h2>
+    <a href="mailto:office@151holdingsllc.com">office@151holdingsllc.com</a>
+  </div>
+</main>
+<footer>&copy; <span id="y">2026</span> 151 Holdings LLC &middot; Utah, USA</footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
